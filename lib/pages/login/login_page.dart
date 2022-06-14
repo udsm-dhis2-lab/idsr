@@ -1,5 +1,5 @@
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
-import 'package:dhis2_flutter_sdk/modules/auth/user/models/login-response.model.dart';
+import 'package:d2_touch/d2_touch.dart';
+import 'package:d2_touch/modules/auth/user/models/login-response.model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:eIDSR/constants/constants.dart';

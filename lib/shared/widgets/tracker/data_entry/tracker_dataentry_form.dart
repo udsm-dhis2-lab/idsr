@@ -1,13 +1,13 @@
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
-import 'package:dhis2_flutter_sdk/modules/data/tracker/entities/enrollment.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/data/tracker/entities/tracked-entity.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/data/tracker/entities/tracked_entity_attribute_value.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/engine/program_rule/models/tracker_rule_result.model.dart';
-import 'package:dhis2_flutter_sdk/modules/engine/program_rule/tracker_rule_engine.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/organisation_unit/queries/organisation_unit.query.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/program/entities/program_rule_action.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/program/entities/program_tracked_entity_attribute.entity.dart';
+import 'package:d2_touch/d2_touch.dart';
+import 'package:d2_touch/modules/data/tracker/entities/enrollment.entity.dart';
+import 'package:d2_touch/modules/data/tracker/entities/tracked-entity.entity.dart';
+import 'package:d2_touch/modules/data/tracker/entities/tracked_entity_attribute_value.entity.dart';
+import 'package:d2_touch/modules/engine/program_rule/models/tracker_rule_result.model.dart';
+import 'package:d2_touch/modules/engine/program_rule/tracker_rule_engine.dart';
+import 'package:d2_touch/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
+import 'package:d2_touch/modules/metadata/organisation_unit/queries/organisation_unit.query.dart';
+import 'package:d2_touch/modules/metadata/program/entities/program_rule_action.entity.dart';
+import 'package:d2_touch/modules/metadata/program/entities/program_tracked_entity_attribute.entity.dart';
 
 // import 'package:eIDSR/shared/model/tackedEntityInstance_model.dart';
 import 'package:eIDSR/shared/widgets/tracker/data_entry/tracker_section_form_card.dart';
@@ -16,7 +16,7 @@ import 'package:eIDSR/constants/constants.dart';
 import 'package:eIDSR/misc/colors.dart';
 import 'package:eIDSR/shared/widgets/org_unit_widgets/orgunit_widgets.dart';
 import 'package:eIDSR/shared/widgets/text_widgets/app_text_widget.dart';
-// import 'package:dhis2_flutter_sdk/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
+// import 'package:d2_touch/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
 
 class TrackerDataEntryForm extends StatefulWidget {
   // final formValues;

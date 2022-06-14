@@ -1,15 +1,15 @@
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
-import 'package:dhis2_flutter_sdk/modules/auth/user/entities/user.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/program/entities/program_tracked_entity_attribute.entity.dart';
+import 'package:d2_touch/d2_touch.dart';
+import 'package:d2_touch/modules/auth/user/entities/user.entity.dart';
+import 'package:d2_touch/modules/metadata/program/entities/program_tracked_entity_attribute.entity.dart';
 import 'package:eIDSR/constants/constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:eIDSR/misc/colors.dart';
 import 'package:eIDSR/shared/widgets/card_widgets/tools_card_widget.dart';
 import 'package:eIDSR/shared/widgets/card_widgets/user_welcome_widget.dart';
 import 'package:eIDSR/shared/widgets/navbar_widget/top_navbar_widget.dart';
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/program/queries/program_tracked_entity_attribute.query.dart';
+import 'package:d2_touch/d2_touch.dart';
+import 'package:d2_touch/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
+import 'package:d2_touch/modules/metadata/program/queries/program_tracked_entity_attribute.query.dart';
 import 'package:flutter/material.dart';
 
 class Tools extends StatefulWidget {

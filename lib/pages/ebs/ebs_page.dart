@@ -1,4 +1,4 @@
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
+import 'package:d2_touch/d2_touch.dart';
 import 'package:eIDSR/misc/colors.dart';
 import 'package:eIDSR/pages/ibs/ibs_home_page.dart';
 import 'package:flutter/material.dart';

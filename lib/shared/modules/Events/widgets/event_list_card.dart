@@ -1,15 +1,15 @@
 import 'dart:convert';
 
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
-import 'package:dhis2_flutter_sdk/modules/data/tracker/entities/enrollment.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/data/tracker/entities/event_data_value.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/organisation_unit/queries/organisation_unit.query.dart';
+import 'package:d2_touch/d2_touch.dart';
+import 'package:d2_touch/modules/data/tracker/entities/enrollment.entity.dart';
+import 'package:d2_touch/modules/data/tracker/entities/event_data_value.entity.dart';
+import 'package:d2_touch/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
+import 'package:d2_touch/modules/metadata/organisation_unit/queries/organisation_unit.query.dart';
 import 'package:eIDSR/misc/colors.dart';
 import 'package:eIDSR/shared/modules/Events/pages/event_form.dart';
 import 'package:eIDSR/shared/modules/Events/pages/event_view.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:dhis2_flutter_sdk/modules/data/tracker/entities/event.entity.dart';
+import 'package:d2_touch/modules/data/tracker/entities/event.entity.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

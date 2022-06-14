@@ -1,4 +1,4 @@
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
+import 'package:d2_touch/d2_touch.dart';
 import 'package:eIDSR/pages/ebs/ebs_page.dart';
 import 'package:eIDSR/pages/mcbs/pages/notifications/mcbs_notifications.dart';
 import 'package:eIDSR/pages/mcbs/pages/summary/mcbs_summary.dart';

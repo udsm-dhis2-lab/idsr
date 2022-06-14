@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:background_fetch/background_fetch.dart';
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
-import 'package:dhis2_flutter_sdk/modules/data/tracker/entities/attribute_reserved_value.entity.dart';
+import 'package:d2_touch/d2_touch.dart';
+import 'package:d2_touch/modules/data/tracker/entities/attribute_reserved_value.entity.dart';
 import 'package:flutter/material.dart';
 import 'package:eIDSR/routes_generator.dart';
 import 'package:shared_preferences/shared_preferences.dart';

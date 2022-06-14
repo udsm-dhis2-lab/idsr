@@ -1,6 +1,6 @@
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/organisation_unit/queries/organisation_unit.query.dart';
+import 'package:d2_touch/d2_touch.dart';
+import 'package:d2_touch/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
+import 'package:d2_touch/modules/metadata/organisation_unit/queries/organisation_unit.query.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

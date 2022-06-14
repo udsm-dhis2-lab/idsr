@@ -1,5 +1,5 @@
-import 'package:dhis2_flutter_sdk/modules/data/tracker/entities/event.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/data/tracker/entities/tracked-entity.entity.dart';
+import 'package:d2_touch/modules/data/tracker/entities/event.entity.dart';
+import 'package:d2_touch/modules/data/tracker/entities/tracked-entity.entity.dart';
 import 'package:eIDSR/shared/modules/Events/pages/event_form.dart';
 import 'package:flutter/cupertino.dart';
 

@@ -1,13 +1,15 @@
 class AppConstants {
-  // static final String dhisInstance = 'https://idsr.dhis2.udsm.ac.tz';
+  static final String dhisInstance = 'https://dev.dhis2.udsm.ac.tz';
   // static final String dhisInstance = 'https://dhis.moh.go.tz/mainupgrade';
-  static final String dhisInstance = 'https://idsr.dhis2.udsm.ac.tz';
+  // static final String dhisInstance = 'https://tland.dhis2.udsm.ac.tz';
+  // static final String dhisInstance = 'https://dhis.moh.go.tz';
   static final String immediateProgramUid = 'bWW1WxiP9lY';
 
   static final String malariaRegisrtyProgramUid = 'ib6PYHQ5Aa8';
   static final String weeklyDatasetUid = 'NDcgQeGaJC9';
 
   // static final immediateCaseListingParams = {'caseid': 'CxSxifEaRzd'};
+
   static final List<dynamic> immediateCaseListingParams = [
     {'id': 'CxSxifEaRzd', 'label': 'Case ID'},
     {'id': 'odR6HcTNgEW', 'label': 'Sex'},

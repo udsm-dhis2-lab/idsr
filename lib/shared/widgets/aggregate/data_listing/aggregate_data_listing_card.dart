@@ -1,7 +1,7 @@
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
-import 'package:dhis2_flutter_sdk/modules/data/aggregate/entities/data_value.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/data/aggregate/entities/data_value_set.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
+import 'package:d2_touch/d2_touch.dart';
+import 'package:d2_touch/modules/data/aggregate/entities/data_value.entity.dart';
+import 'package:d2_touch/modules/data/aggregate/entities/data_value_set.entity.dart';
+import 'package:d2_touch/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
 import 'package:eIDSR/misc/colors.dart';
 import 'package:eIDSR/pages/ibs/weekly/weekly_dataentry.dart';
 import 'package:eIDSR/shared/model/custom_dataelement_model.dart';

@@ -1,14 +1,14 @@
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
-import 'package:dhis2_flutter_sdk/modules/engine/program_rule/models/tracker_rule_result.model.dart';
-import 'package:dhis2_flutter_sdk/modules/engine/program_rule/tracker_rule_engine.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
+import 'package:d2_touch/d2_touch.dart';
+import 'package:d2_touch/modules/engine/program_rule/models/tracker_rule_result.model.dart';
+import 'package:d2_touch/modules/engine/program_rule/tracker_rule_engine.dart';
+import 'package:d2_touch/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
 
 // import 'package:eIDSR/shared/model/tackedEntityInstance_model.dart';
-import 'package:dhis2_flutter_sdk/modules/data/tracker/entities/tracked-entity.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/data/tracker/entities/tracked_entity_attribute_value.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/program/entities/attribute_option.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/program/entities/program_rule_action.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/program/entities/program_tracked_entity_attribute.entity.dart';
+import 'package:d2_touch/modules/data/tracker/entities/tracked-entity.entity.dart';
+import 'package:d2_touch/modules/data/tracker/entities/tracked_entity_attribute_value.entity.dart';
+import 'package:d2_touch/modules/metadata/program/entities/attribute_option.entity.dart';
+import 'package:d2_touch/modules/metadata/program/entities/program_rule_action.entity.dart';
+import 'package:d2_touch/modules/metadata/program/entities/program_tracked_entity_attribute.entity.dart';
 import 'package:eIDSR/shared/helpers/app_helper.dart';
 import 'package:eIDSR/shared/model/app_input_field_result_model.dart';
 import 'package:eIDSR/shared/model/option.model.dart';

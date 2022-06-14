@@ -1,4 +1,4 @@
-import 'package:dhis2_flutter_sdk/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
+import 'package:d2_touch/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
 import 'package:eIDSR/shared/widgets/tracker/data_entry/tracker_section_form_card.dart';
 import 'package:flutter/material.dart';
 import 'package:eIDSR/constants/constants.dart';

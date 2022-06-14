@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
-import 'package:dhis2_flutter_sdk/modules/data/aggregate/entities/data_value_set.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
+import 'package:d2_touch/d2_touch.dart';
+import 'package:d2_touch/modules/data/aggregate/entities/data_value_set.entity.dart';
+import 'package:d2_touch/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
 import 'package:eIDSR/shared/model/aggregate_form_section_model.dart';
 import 'package:eIDSR/shared/model/custom_dataelement_model.dart';
 import 'package:eIDSR/shared/widgets/text_widgets/app_text_widget.dart';

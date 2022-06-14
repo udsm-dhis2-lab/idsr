@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:eIDSR/pages/ibs/ibs_home_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
+import 'package:d2_touch/d2_touch.dart';
 import 'package:eIDSR/constants/constants.dart';
 import 'package:eIDSR/shared/model/surveillanceSelection_model.dart';
 import 'package:eIDSR/shared/widgets/card_widgets/surveillance_card_widget.dart';

@@ -1,19 +1,19 @@
 import 'dart:convert';
 
-import 'package:dhis2_flutter_sdk/modules/data/tracker/entities/attribute_reserved_value.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/data/tracker/entities/enrollment.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/data/tracker/entities/tracked-entity.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/data/tracker/entities/tracked_entity_attribute_value.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/program/entities/program.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/program/entities/program_tracked_entity_attribute.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/program/queries/program_tracked_entity_attribute.query.dart';
-import 'package:dhis2_flutter_sdk/shared/utilities/sort_order.util.dart';
+import 'package:d2_touch/modules/data/tracker/entities/attribute_reserved_value.entity.dart';
+import 'package:d2_touch/modules/data/tracker/entities/enrollment.entity.dart';
+import 'package:d2_touch/modules/data/tracker/entities/tracked-entity.entity.dart';
+import 'package:d2_touch/modules/data/tracker/entities/tracked_entity_attribute_value.entity.dart';
+import 'package:d2_touch/modules/metadata/organisation_unit/entities/organisation_unit.entity.dart';
+import 'package:d2_touch/modules/metadata/program/entities/program.entity.dart';
+import 'package:d2_touch/modules/metadata/program/entities/program_tracked_entity_attribute.entity.dart';
+import 'package:d2_touch/modules/metadata/program/queries/program_tracked_entity_attribute.query.dart';
+import 'package:d2_touch/shared/utilities/sort_order.util.dart';
 import 'package:eIDSR/shared/widgets/tracker/data_entry/tracker_dataentry_form.dart';
 import 'package:flutter/material.dart';
 import 'package:eIDSR/misc/colors.dart';
 import 'package:eIDSR/shared/widgets/tracker/case_listing/tracker_case_listing_card.dart';
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
+import 'package:d2_touch/d2_touch.dart';
 import 'package:eIDSR/shared/widgets/org_unit_widgets/orgunit_widgets.dart';
 
 class TrackerProgramPage extends StatefulWidget {

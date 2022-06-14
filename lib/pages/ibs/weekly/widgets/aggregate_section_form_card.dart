@@ -1,11 +1,11 @@
 import 'dart:ffi';
 
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
-import 'package:dhis2_flutter_sdk/modules/data/aggregate/entities/data_value.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/data/aggregate/entities/data_value_set.entity.dart';
-import 'package:dhis2_flutter_sdk/modules/engine/validation_rule/models/validation_rule_action.model.dart';
-import 'package:dhis2_flutter_sdk/modules/engine/validation_rule/models/validation_rule_result.model.dart';
-import 'package:dhis2_flutter_sdk/modules/engine/validation_rule/validation_rule_engine.dart';
+import 'package:d2_touch/d2_touch.dart';
+import 'package:d2_touch/modules/data/aggregate/entities/data_value.entity.dart';
+import 'package:d2_touch/modules/data/aggregate/entities/data_value_set.entity.dart';
+import 'package:d2_touch/modules/engine/validation_rule/models/validation_rule_action.model.dart';
+import 'package:d2_touch/modules/engine/validation_rule/models/validation_rule_result.model.dart';
+import 'package:d2_touch/modules/engine/validation_rule/validation_rule_engine.dart';
 import 'package:eIDSR/shared/model/aggregate_form_section_model.dart';
 import 'package:eIDSR/shared/model/app_input_field_result_model.dart';
 import 'package:eIDSR/shared/model/custom_dataelement_model.dart';

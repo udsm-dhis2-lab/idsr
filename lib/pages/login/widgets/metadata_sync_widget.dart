@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:dhis2_flutter_sdk/d2_touch.dart';
-import 'package:dhis2_flutter_sdk/modules/metadata/program/queries/program.query.dart';
+import 'package:d2_touch/d2_touch.dart';
+import 'package:d2_touch/modules/metadata/program/queries/program.query.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
